@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>연습문제 2</title>
-</head>
-<body>
-	
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>연습문제 2</title>
+  </head>
+  <body>
+    <script>
+      function compareNum(a, b) {
+        if (a > b) {
+          alert(a + "(이)가 " + b + "보다 큽니다.");
+        } else {
+          alert(b + "(이)가 " + a + "보다 큽니다.");
+        }
+      }
+
+      num1 = parseInt(prompt("처음 수를 입력하세요."));
+      num2 = parseInt(prompt("다음 수를 입력하세요."));
+      compareNum(num1, num2);
+    </script>
+  </body>
 </html>

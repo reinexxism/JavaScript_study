@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">	
-	<title>직접 만들어 보는 함수</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>직접 만들어 보는 함수</title>
+  </head>
+  <body>
+    <script>
+      function add(a, b) {
+        var sum = a + b;
+        return sum;
+      }
 
-</body>
+      num1 = parseInt(prompt("첫 번째 숫자를 입력하세요."));
+      num2 = parseInt(prompt("두 번째 숫자를 입력하세요."));
+      var result = add(num1, num2);
+      document.write("두 숫자를 더한 값은 " + result + "입니다.");
+    </script>
+  </body>
 </html>

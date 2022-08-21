@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>연습문제 1</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>연습문제 1</title>
+  </head>
+  <body>
+    <script>
+      function sumMulti(a, b) {
+        if (a == b) {
+          return (sum = a * b);
+        } else {
+          return (multi = a + b);
+        }
+      }
 
-</body>
+      num1 = parseInt(prompt("처음 수를 입력하세요."));
+      num2 = parseInt(prompt("다음 수를 입력하세요."));
+      var result = sumMulti(num1, num2);
+      console.log(result);
+    </script>
+  </body>
 </html>
